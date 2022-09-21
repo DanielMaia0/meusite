@@ -2,8 +2,10 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:dimgray;
+    background:dimgray url('back.jpg') center center no-repeat fixed;
+    background-size: cover;
     margin: 0px;
+
 }
 
 header {
