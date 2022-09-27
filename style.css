@@ -9,7 +9,9 @@ body {
 }
 
 header {
-    background-color: white;
+    background: url("paradise1.jpg");
+    background-position: center;
+    background-size: cover;
     padding: 10px;
     margin: 10px;
     border-radius: 6px;
@@ -21,21 +23,23 @@ header > h1 {
 }
 
 main {
+    max-width: 800px;
+    text-align: center;
     background-color: white;
     padding: 10px;
-    margin: 10px; 
+    margin: auto; 
     border-radius: 6px;
     box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.225);         
 }
 
 img {
     border-radius: 10px;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 nav {
     color: white;
-    background-color: rgb(68, 67, 67);
+    background-color: rgba(68, 67, 67, 0.774);
     padding: 3px;
     box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.396);
 }
@@ -55,6 +59,11 @@ article {
     background-color: lightgray;
     padding: 5px;
 }
+
+.texto {
+    max-width: 500px;
+}
+
 footer > p {
     margin: 0px;
 }
