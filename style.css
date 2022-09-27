@@ -66,14 +66,16 @@ footer {
 
 }
 table {
-    width: 450px;
+    width: 500px;
+    max-width: 100%;
 }
 
 div > table {
-    min-width: 40vw;
+ 
 }
 
 th, td {
     text-align: center;
     border: 2px solid darkgray;
+    padding: 5px;
 }
